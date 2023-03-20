@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 53em;
+}
+.banniereProfile {
+    width: 100%;
+}
+.banniereProfile img {
+    width: 120%;
+    margin-top: -3%;
+}
+.profilePicture {
+    border: solid 2px rgb(214, 144, 82);
+    width: 30%;
+    height: 100%;
+    border-radius: 80%;
+    background-image: url("../../assets/img/babyReading.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -17%;
+}
+.userIdentity p {
+    text-align: center;
+}
+.myBooks img, .toReadList img, .myFavorites img {
+    width: 100%;
+    margin-right: 2%;
+}
+.myBooks, .toReadList, .myFavorites {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+.followstats {
+    display: flex;
+    margin-left: -60%;
+    margin-top: 33%;
+}
+.followstats img {
+    width: 30%;
+}
+.followers p {
+    font-size: 0.7em;
+}
+.optionsProfile {
+    margin-top: -54%;
+    margin-left: 82%;
+}
+.optionsProfile img {
+    width: 38%;
+}
