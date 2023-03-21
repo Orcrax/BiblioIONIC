@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { ForthcomingPageComponent } from './forthcoming-page.component';
+import { ForthcomingPagePage } from './forthcoming-page.page';
 
-describe('ForthcomingPageComponent', () => {
-  let component: ForthcomingPageComponent;
-  let fixture: ComponentFixture<ForthcomingPageComponent>;
+describe('ForthcomingPagePage', () => {
+  let component: ForthcomingPagePage;
+  let fixture: ComponentFixture<ForthcomingPagePage>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ForthcomingPageComponent ],
+      declarations: [ ForthcomingPagePage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(ForthcomingPageComponent);
+    fixture = TestBed.createComponent(ForthcomingPagePage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

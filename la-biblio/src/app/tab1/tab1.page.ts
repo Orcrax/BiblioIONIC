@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ScrollDetail } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab1',
@@ -7,5 +6,7 @@ import { ScrollDetail } from '@ionic/angular';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
+
   constructor() {}
+
 }
